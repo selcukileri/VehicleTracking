@@ -14,6 +14,7 @@
 		B6A2F7762C06176F001AEF5E /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A2F7752C06176F001AEF5E /* Car.swift */; };
 		B6A2F7792C06177D001AEF5E /* ATButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A2F7782C06177D001AEF5E /* ATButton.swift */; };
 		B6A2F77C2C061798001AEF5E /* ATTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A2F77B2C061798001AEF5E /* ATTitleLabel.swift */; };
+		B6A2F7842C063449001AEF5E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6A2F7832C063449001AEF5E /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B6A2F7752C06176F001AEF5E /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		B6A2F7782C06177D001AEF5E /* ATButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATButton.swift; sourceTree = "<group>"; };
 		B6A2F77B2C061798001AEF5E /* ATTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTitleLabel.swift; sourceTree = "<group>"; };
+		B6A2F7832C063449001AEF5E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				B6A2F7652C06168E001AEF5E /* Assets.xcassets */,
 				B6A2F7672C06168E001AEF5E /* LaunchScreen.storyboard */,
 				B6A2F76A2C06168E001AEF5E /* Info.plist */,
+				B6A2F7832C063449001AEF5E /* GoogleService-Info.plist */,
 			);
 			path = AracTakipApp;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6A2F7842C063449001AEF5E /* GoogleService-Info.plist in Resources */,
 				B6A2F7662C06168E001AEF5E /* Assets.xcassets in Resources */,
 				B6A2F7692C06168E001AEF5E /* Base in Resources */,
 			);
