@@ -1,5 +1,5 @@
 //
-//  ATTitleLabel.swift
+//  ATBodyLabel.swift
 //  AracTakipApp
 //
 //  Created by Selçuk İleri on 28.05.2024.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ATTitleLabel: UILabel {
+class ATBodyLabel: UILabel {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -18,17 +18,17 @@ class ATTitleLabel: UILabel {
         fatalError("init(coder:) has not been implemented")
     }
     
-    convenience init(textAlignment: NSTextAlignment, fontSize: CGFloat) {
+    convenience init(textAlignment: NSTextAlignment) {
         self.init(frame: .zero)
         self.textAlignment = textAlignment
-        self.font = UIFont.systemFont(ofSize: fontSize, weight: .bold)
     }
     
     private func configure(){
-        textColor = .label
+        textColor = .secondaryLabel
+        font = UIFont.preferredFont(forTextStyle: .body)
         adjustsFontSizeToFitWidth = true
-        minimumScaleFactor = 0.9
-        lineBreakMode = .byTruncatingTail
+        minimumScaleFactor = 0.75
+        lineBreakMode = .byWordWrapping
     }
 
 }
